@@ -2,13 +2,26 @@
 
 const numero_km = Number(prompt("Quanti chilometri deve percorrere?"));
 
+// Controllo dati
+
+if(isNaN(numero_km)){
+    alert("Non hai inserito un numero");
+}
+
 // Chiedo l'età al passeggiero
 
 const età_passeggiero = Number(prompt("Quanti anni ha?"));
 
+// Controllo dati
+
+if(isNaN(età_passeggiero)){
+    alert("Non hai inserito un numero");
+}
+
 // Prezzo biglietto in base ai km
 
 const prezzo_biglietto = numero_km * 0.21;
+
 
 // Calcolo percentuale
 
